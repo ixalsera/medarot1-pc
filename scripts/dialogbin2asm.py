@@ -45,7 +45,7 @@ current_fp = None
 with open(output_file, 'w') as output:
     try:
         current_fp = open(current_file, 'wb')
-        output.write(f'cText{current_index}        EQUS "\\"{current_file}\\""\n')
+        output.write(f'DEF    cText{current_index}        EQUS "\\"{current_file}\\""\n')
         for input_file in input_files:
             base_name = os.path.basename(input_file)
             output_path = os.path.join(output_bin_dir, base_name)
@@ -67,13 +67,13 @@ with open(output_file, 'w') as output:
                         current_file = os.path.join(output_bin_dir, f"Text{current_index}.bin")
                         current_fp = open(current_file, 'wb')
                         assert length + current_offset < BANK_MAX, "Text is too long"
-                        output.write(f'cText{current_index}        EQUS "\\"{current_file}\\""\n')
+                        output.write(f'DEF    cText{current_index}        EQUS "\\"{current_file}\\""\n')
 
                     out_f.write(pack("<BH", current_bank, current_offset))
                     current_fp.write(in_f.read(length))
                     current_offset += length
             
-            output.write(f'c{key}        EQUS "\\"{output_path}\\""\n')
+            output.write(f'DEF    c{key}        EQUS "\\"{output_path}\\""\n')
     finally:
         if current_fp:
             current_fp.close()
@@ -81,5 +81,5 @@ with open(output_file, 'w') as output:
     current_index += 1
     while f"Text{current_index}" in sections:
         current_file = os.path.join(output_bin_dir, f"Text{current_index}.bin")
-        output.write(f'cText{current_index}        EQUS "\\"{current_file}\\""\n')
+        output.write(f'DEF    cText{current_index}        EQUS "\\"{current_file}\\""\n')
         current_index += 1
