@@ -388,13 +388,13 @@ VWFRoboticBoldFont::
 VWFMessageBoxInputHandler::
   ; Advance on button press.
 
-  ld a, [hJPInputChanged]
+  ldh a, [hJPInputChanged]
   and hJPInputA | hJPInputB
   ret nz
 
   ; Auto-advance if button held down.
 
-  ld a, [hJPInputHeldDown]
+  ldh a, [hJPInputHeldDown]
   and hJPInputA | hJPInputB
   ret z
 
@@ -1010,7 +1010,7 @@ VWFChar4F::
   ; No idea what this does.
 
   ld a, $22
-  ld [$ffa1], a
+  ldh [$ffa1], a
 
   ; Clearing some basic variables.
 
@@ -1066,7 +1066,7 @@ VWFChar4F::
   ; No idea what this does.
 
   ld a, $22
-  ld [$ffa1], a
+  ldh [$ffa1], a
 
   ; Clearing some basic variables.
 
@@ -1094,7 +1094,7 @@ VWFChar4F::
   ; No idea what this does.
 
   ld a, $22
-  ld [$ffa1], a
+  ldh [$ffa1], a
 
   ; Or this.
 
@@ -1184,7 +1184,7 @@ VWFChar4C::
   ; No idea what this does.
 
   ld a, $22
-  ld [$ffa1], a
+  ldh [$ffa1], a
 
   ; Reset auto-advance timer.
 
