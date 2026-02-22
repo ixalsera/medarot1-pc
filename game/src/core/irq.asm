@@ -158,7 +158,7 @@ ResetIRQVars::
   ret
 HBlankWaitForLine::
 .waitforline
-  ld a, [hRegLY]
+  ldh a, [hRegLY]
   cp b
   jr c, .waitforline
   ret
