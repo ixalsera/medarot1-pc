@@ -1,121 +1,121 @@
 (9, 7)|80|80
-サイクロン
-𝐂𝐑𝐖ー02
-ミスタッチ
-𝐁𝐄𝐄ー02
-エレクトウェーブ
-𝐁𝐀𝐓ー02
-ファイアガン
-𝐏𝐇𝐗ー02
-スタビライザー
-𝐏𝐋𝐍ー02
-エンジェルハンド
-𝐀𝐍𝐆ー02
-プレッシャー
-𝐁𝐄𝐑ー02
-アボイド
-𝐆𝐇𝐓ー02
-ミラー
-𝐇𝐍𝐈ー02
-ドウタクー
-𝐃𝐆𝐔ー02
-サウンドコピー
-𝐒𝐍𝐆ー02
-かいふくのみず
-𝐃𝐑𝐀ー02
-エナジーバリア
-𝐅𝐋𝐘ー02
-デスボム
-𝐖𝐄𝐀ー02
-サーベル
-𝐂𝐎𝐖ー02
-ホイホイトラップ
-𝐒𝐏𝐈ー02
-ワイヤー
-𝐂𝐋𝐀ー02
-ウィルス
-𝐒𝐍𝐀ー02
-キャンセラー
-𝐔𝐍𝐈ー02
-ソーラーパワー
-𝐅𝐋𝐖ー02
-インビジハンド
-𝐂𝐌𝐎ー02
-チャンバラソード
-𝐊𝐖𝐆ー02
-リボルバー
-𝐊𝐁𝐓ー02
-くない
-𝐍𝐈𝐍ー02
-フェンシング
-𝐊𝐓𝐍ー02
-ライトアクス
-𝐊𝐈𝐍ー02
-クルクルナックル
-𝐓𝐀𝐍ー02
-ビームセイバー
-𝐒𝐀𝐌ー02
-スナイプライフル
-𝐃𝐎𝐆ー02
-メルトボム
-𝐍𝐓𝐁ー02
-ほうねつばん
-𝐑𝐁𝐓ー02
-スカウトハンド
-𝐌𝐎𝐍ー02
-ミュートハンド
-𝐀𝐋𝐈ー02
-デビルハンド
-𝐃𝐕𝐋ー02
-マシンガン
-𝐒𝐋𝐑ー02
-スタンガン
-𝐂𝐀𝐓ー02
-アイス
-𝐐𝐔𝐍ー02
-ファーストエイド
-𝐍𝐀𝐒ー02
-かやくだま
-𝐊𝐍𝐈ー02
-ハンドウィップ
-𝐁𝐍𝐘ー02
-タイクーミサイル
-𝐂𝐀𝐑ー02
-ついびレーザー
-𝐑𝐀𝐘ー02
-ミギビーム
-𝐂𝐎𝐌ー02
-カーニバル
-𝐏𝐈𝐄ー02
-バルカン
-𝐁𝐌𝐓ー02
-ナイトシールド
-𝐍𝐈𝐓ー02
-ポイントレーダー
-𝐁𝐎𝐊ー02
-チャージ
-𝐈𝐍𝐓ー02
-ノーマルレーザー
-𝐓𝐎𝐓ー02
-ホーミング
-𝐆𝐋𝐌ー02
-ブレイカー
-𝐑𝐈𝐂ー02
-ライトガード
-𝐄𝐋𝐅ー02
-トラップバスター
-𝐌𝐎𝐆ー02
-ブラックホール
-𝐄𝐆𝐓ー02
-タイウォーター
-𝐌𝐑𝐍ー02
-プラスドライバ
-𝐒𝐀𝐊ー02
-ハイスイコー
-𝐒𝐇𝐋ー02
-キューリバクダン
-𝐊𝐀𝐏ー02
-キュアハンド
-𝐌𝐀𝐑ー02
-フリーアーム
-𝐏𝐄𝐍ー02
+Cyclone
+CRW-02
+Mistouch
+BEE-02
+Electro-Wave
+BAT-02
+Fire Gun
+PHX-02
+Stabilizer
+PLN-02
+Angel Hand
+ANG-02
+Pressure
+BER-02
+Avoid
+GHT-02
+Mirror
+HNI-02
+Bronze Bell
+DGU-02
+Sound Copy
+SNG-02
+Healing Water
+DRA-02
+Energy Barrier
+FLY-02
+Death Bomb
+WEA-02
+Sabre
+COW-02
+Fly Trap
+SPI-02
+Wire
+CLA-02
+Virus
+SNA-02
+Canceler
+UNI-02
+Solar Power
+FLW-02
+Invisi-Hand
+CMO-02
+Chanbara Sword
+KWG-02
+Revolver
+KBT-02
+Kunai
+NIN-02
+Fencing
+KTN-02
+Light Axe
+KIN-02
+Spin Knuckle
+TAN-02
+Beam Saber
+SAM-02
+Snipe Rifle
+DOG-02
+Melt Bomb
+NTB-02
+Heat Sink
+RBT-02
+Scout Hand
+MON-02
+Mute Hand
+ALI-02
+Devil Hand
+DVL-02
+Machine Gun
+SLR-02
+Stun Gun
+CAT-02
+Ice
+QUN-02
+First Aid
+NAS-02
+Powder Bomb
+KNI-02
+Hand Whip
+BNY-02
+AA Missile
+CAR-02
+Tracking Laser
+RAY-02
+Right Beam
+COM-02
+Carnival
+PIE-02
+Vulcan
+BMT-02
+Knight Shield
+NIT-02
+Point Radar
+BOK-02
+Charge
+INT-02
+Normal Laser
+TOT-02
+Homing
+GLM-02
+Breaker
+RIC-02
+Right Guard
+ELF-02
+Trap Buster
+MOG-02
+Black Hole
+EGT-02
+VS Water
+MRN-02
+Plus-Driver
+SAK-02
+Drainer
+SHL-02
+Cucumber Bomb
+KAP-02
+Cure Hand
+MAR-02
+Free Arm
+PEN-02

@@ -1,121 +1,121 @@
 (9, 7)|80|80
-トルネード
-𝐂𝐑𝐖ー03
-バグラー
-𝐁𝐄𝐄ー03
-マグネウェーブ
-𝐁𝐀𝐓ー03
-フレイムガン
-𝐏𝐇𝐗ー03
-ウィング
-𝐏𝐋𝐍ー03
-エンジェルアーム
-𝐀𝐍𝐆ー03
-マッシャー
-𝐁𝐄𝐑ー03
-イグジット
-𝐆𝐇𝐓ー03
-フラッシュ
-𝐇𝐍𝐈ー03
-ドウタタクー
-𝐃𝐆𝐔ー03
-リターンサウンド
-𝐒𝐍𝐆ー03
-ふっかつのいずみ
-𝐃𝐑𝐀ー03
-フォースバリア
-𝐅𝐋𝐘ー03
-デスビーム
-𝐖𝐄𝐀ー03
-マントシールド
-𝐂𝐎𝐖ー03
-ネバネバトラップ
-𝐒𝐏𝐈ー03
-ネット
-𝐂𝐋𝐀ー03
-ジャック
-𝐒𝐍𝐀ー03
-リカバリー
-𝐔𝐍𝐈ー03
-ソーラープレート
-𝐅𝐋𝐖ー03
-インビジアーム
-𝐂𝐌𝐎ー03
-ピコペコハンマー
-𝐊𝐖𝐆ー03
-サブマシンガン
-𝐊𝐁𝐓ー03
-にんじゃとう
-𝐍𝐈𝐍ー03
-レイピア
-𝐊𝐓𝐍ー03
-グレートアクス
-𝐊𝐈𝐍ー03
-メガトンパンチ
-𝐓𝐀𝐍ー03
-サムライセイバー
-𝐒𝐀𝐌ー03
-アサルトライフル
-𝐃𝐎𝐆ー03
-メルトレイン
-𝐍𝐓𝐁ー03
-せんぷうき
-𝐑𝐁𝐓ー03
-スカウトアーム
-𝐌𝐎𝐍ー03
-ミュートアーム
-𝐀𝐋𝐈ー03
-デビルアーム
-𝐃𝐕𝐋ー03
-マグナム
-𝐒𝐋𝐑ー03
-スタンスティック
-𝐂𝐀𝐓ー03
-フリーズ
-𝐐𝐔𝐍ー03
-ワクチン
-𝐍𝐀𝐒ー03
-しゅリゅうだん
-𝐊𝐍𝐈ー03
-アームキャンディ
-𝐁𝐍𝐘ー03
-チョーキョリホー
-𝐂𝐀𝐑ー03
-おっかけレーザー
-𝐑𝐀𝐘ー03
-ヒダリビーム
-𝐂𝐎𝐌ー03
-フェスティバル
-𝐏𝐈𝐄ー03
-ガトリング
-𝐁𝐌𝐓ー03
-グレートシールド
-𝐍𝐈𝐓ー03
-カットレーダー
-𝐁𝐎𝐊ー03
-ジェネレータ
-𝐈𝐍𝐓ー03
-ハイパーレーザー
-𝐓𝐎𝐓ー03
-グレネード
-𝐆𝐋𝐌ー03
-グラビトン
-𝐑𝐈𝐂ー03
-レフトガード
-𝐄𝐋𝐅ー03
-バリアバスター
-𝐌𝐎𝐆ー03
-ダークホール
-𝐄𝐆𝐓ー03
-チリウォーター
-𝐌𝐑𝐍ー03
-マイナスドライバ
-𝐒𝐀𝐊ー03
-キュースイコー
-𝐒𝐇𝐋ー03
-ハスノハバクダン
-𝐊𝐀𝐏ー03
-リペアアーム
-𝐌𝐀𝐑ー03
-アタラシアーム
-𝐏𝐄𝐍ー03
+Tornado
+CRW-03
+Bugler
+BEE-03
+Magnet-Wave
+BAT-03
+Flame Gun
+PHX-03
+Wing
+PLN-03
+Angel Arm
+ANG-03
+Masher
+BER-03
+Exit
+GHT-03
+Flash
+HNI-03
+Bronze Bang
+DGU-03
+Return Sound
+SNG-03
+Revival Spring
+DRA-03
+Force Barrier
+FLY-03
+Death Beam
+WEA-03
+Cape Shield
+COW-03
+Sticky Trap
+SPI-03
+Net
+CLA-03
+Jack
+SNA-03
+Recovery
+UNI-03
+Solar Plate
+FLW-03
+Invisi-Arm
+CMO-03
+Picopeco Hammer
+KWG-03
+Submachinegun
+KBT-03
+Ninjato
+NIN-03
+Rapier
+KTN-03
+Great Axe
+KIN-03
+Megaton Punch
+TAN-03
+Samurai Saber
+SAM-03
+Assault Rifle
+DOG-03
+Melt Rain
+NTB-03
+Fan
+RBT-03
+Scout Arm
+MON-03
+Mute Arm
+ALI-03
+Devil Arm
+DVL-03
+Magnum
+SLR-03
+Stun Stick
+CAT-03
+Freeze
+QUN-03
+Vaccine
+NAS-03
+Hand Grenade
+KNI-03
+Arm Candy
+BNY-03
+Ranged Cannon
+CAR-03
+Homing Laser
+RAY-03
+Left Beam
+COM-03
+Festival
+PIE-03
+Gatling
+BMT-03
+Great Shield
+NIT-03
+Cut Radar
+BOK-03
+Generator
+INT-03
+Hyper Laser
+TOT-03
+Grenade
+GLM-03
+Graviton
+RIC-03
+Left Guard
+ELF-03
+Barrier Buster
+MOG-03
+Dark Hole
+EGT-03
+Spray Water
+MRN-03
+Minus-Driver
+SAK-03
+Absorber
+SHL-03
+Lotus Bomb
+KAP-03
+Repair Arm
+MAR-03
+New Arm
+PEN-03

@@ -1,121 +1,121 @@
 (9, 7)|80|80
-さんだんじゅう
-𝐂𝐑𝐖ー01
-ヘクサドン
-𝐁𝐄𝐄ー01
-サイコウェーブ
-𝐁𝐀𝐓ー01
-ブラストガン
-𝐏𝐇𝐗ー01
-コクピット
-𝐏𝐋𝐍ー01
-エンジェルボディ
-𝐀𝐍𝐆ー01
-メテオストライク
-𝐁𝐄𝐑ー01
-ボイド
-𝐆𝐇𝐓ー01
-ハニーヘッド
-𝐇𝐍𝐈ー01
-ドグー
-𝐃𝐆𝐔ー01
-ファランクス
-𝐒𝐍𝐆ー01
-リゅうすいしょう
-𝐃𝐑𝐀ー01
-フィールドバリア
-𝐅𝐋𝐘ー01
-デスブラスト
-𝐖𝐄𝐀ー01
-ボディアタック
-𝐂𝐎𝐖ー01
-ブービートラップ
-𝐒𝐏𝐈ー01
-ハチマキ
-𝐂𝐋𝐀ー01
-ハッカー
-𝐒𝐍𝐀ー01
-ガーディアン
-𝐔𝐍𝐈ー01
-ソーラーレーザー
-𝐅𝐋𝐖ー01
-インビジボディ
-𝐂𝐌𝐎ー01
-アンテナ
-𝐊𝐖𝐆ー01
-ミサイル
-𝐊𝐁𝐓ー01
-かすみあみ
-𝐍𝐈𝐍ー01
-ミカヅチ
-𝐊𝐓𝐍ー01
-ボディプレス
-𝐊𝐈𝐍ー01
-エアバッグ
-𝐓𝐀𝐍ー01
-サムライブラスト
-𝐒𝐀𝐌ー01
-リニアカノン
-𝐃𝐎𝐆ー01
-メルトコーン
-𝐍𝐓𝐁ー01
-エアコン
-𝐑𝐁𝐓ー01
-スモークガス
-𝐌𝐎𝐍ー01
-ミュートボディ
-𝐀𝐋𝐈ー01
-デビルボディ
-𝐃𝐕𝐋ー01
-ファイトいっぱつ
-𝐒𝐋𝐑ー01
-テイザー
-𝐂𝐀𝐓ー01
-ブリザード
-𝐐𝐔𝐍ー01
-サンクチュアリ
-𝐍𝐀𝐒ー01
-チャームポイント
-𝐊𝐍𝐈ー01
-ボディコンシャス
-𝐁𝐍𝐘ー01
-ボディショット
-𝐂𝐀𝐑ー01
-プラズマレーザー
-𝐑𝐀𝐘ー01
-モーニングコール
-𝐂𝐎𝐌ー01
-フィナーレ
-𝐏𝐈𝐄ー01
-ビクトリアーマー
-𝐁𝐌𝐓ー01
-クリアシールド
-𝐍𝐈𝐓ー01
-サーチレーダー
-𝐁𝐎𝐊ー01
-じゅうでんき
-𝐈𝐍𝐓ー01
-バッテリー
-𝐓𝐎𝐓ー01
-せんしゃミサイル
-𝐆𝐋𝐌ー01
-デバッガー
-𝐑𝐈𝐂ー01
-トランプル
-𝐄𝐋𝐅ー01
-カバーアップ
-𝐌𝐎𝐆ー01
-グランドボム
-𝐄𝐆𝐓ー01
-アンチウォーター
-𝐌𝐑𝐍ー01
-でんどうドライバ
-𝐒𝐀𝐊ー01
-シンジュー
-𝐒𝐇𝐋ー01
-カッパービーム
-𝐊𝐀𝐏ー01
-オールリペア
-𝐌𝐀𝐑ー01
-リザレクター
-𝐏𝐄𝐍ー01
+Shotgun
+CRW-01
+Hexadon
+BEE-01
+Psycho-Wave
+BAT-01
+Blast Gun
+PHX-01
+Cockpit
+PLN-01
+Angel Body
+ANG-01
+Meteor Strike
+BER-01
+Void
+GHT-01
+Hani-Head
+HNI-01
+Doguu
+DGU-01
+Pharynx
+SNG-01
+Dragon Crystal
+DRA-01
+Field Barrier
+FLY-01
+Death Blast
+WEA-01
+Body Blow
+COW-01
+Booby Trap
+SPI-01
+Headband
+CLA-01
+Hacker
+SNA-01
+Guardian
+UNI-01
+Solar Laser
+FLW-01
+Invisi-Body
+CMO-01
+Antenna
+KWG-01
+Missile
+KBT-01
+Mist Net
+NIN-01
+Mikazuchi
+KTN-01
+Body Press
+KIN-01
+Airbag
+TAN-01
+Samurai Blast
+SAM-01
+Linear Cannon
+DOG-01
+Melt Cone
+NTB-01
+Air-Con
+RBT-01
+Smoke Gas
+MON-01
+Mute Body
+ALI-01
+Devil Body
+DVL-01
+Fighter Hair
+SLR-01
+Taser
+CAT-01
+Blizzard
+QUN-01
+Sanctuary
+NAS-01
+Charm Point
+KNI-01
+Body Conscious
+BNY-01
+Body Shot
+CAR-01
+Plasma Laser
+RAY-01
+Morning Call
+COM-01
+Finale
+PIE-01
+Victory Armor
+BMT-01
+Clear Shield
+NIT-01
+Search Radar
+BOK-01
+Elec-Charger
+INT-01
+Battery
+TOT-01
+Tank Missile
+GLM-01
+Debugger
+RIC-01
+Trample
+ELF-01
+Cover Up
+MOG-01
+Grand Bomb
+EGT-01
+Anti-Water
+MRN-01
+Elec-Driver
+SAK-01
+Pearl
+SHL-01
+Kappa Beam
+KAP-01
+All Repair
+MAR-01
+Resurrector
+PEN-01
