@@ -1,4 +1,4 @@
-8|80|0
+16|80|0
 Kuwagata
 Kabuto
 Tortoise

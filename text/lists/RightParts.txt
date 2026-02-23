@@ -1,4 +1,4 @@
-(9, 7)|80|80
+(25, 7)|80|80
 Cyclone
 CRW-02
 Mistouch
