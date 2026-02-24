@@ -1,11 +1,12 @@
-[![CircleCI](https://circleci.com/gh/Medabots/medarot1-pc/tree/master.svg?style=svg)](https://app.circleci.com/pipelines/github/Medabots/medarot1-pc?branch=master)
-
 # Getting Started
 ## Dependencies
 
 * Medarot Parts Collection GB ROM
   * md5: `a83d745ae8806a04d4a9e3c241f8c8cb`
   * sha1: `eec1245abb1d97cd2df976fdf179c924a4efa720`
+
+### For building/dumping:
+* Docker (optional)
 * Make
 * [uv](https://docs.astral.sh/uv/)
 * [rgbds](https://github.com/rednex/rgbds) >= 0.5.0

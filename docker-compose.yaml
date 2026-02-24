@@ -1,0 +1,10 @@
+services:
+  medarot-pc:
+    build: .
+    container_name: parts-collection
+    volumes:
+      - .:/medarot
+    command:
+      - make
+      - clean
+      - default
