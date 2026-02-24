@@ -1,7 +1,9 @@
 *.gb
 *.sav
+*.ss*
 *.sgm
 build/
+build.log
 *.sn*
 *.sna
 *.o
@@ -14,3 +16,6 @@ scripts/common/__pycache__/
 
 # OSX
 .DS_Store
+
+# Python
+.venv

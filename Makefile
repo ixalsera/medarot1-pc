@@ -5,7 +5,7 @@ VERSIONS := parts_collection
 OUTPUT_PREFIX := medarot_
 ORIGINAL_PREFIX := baserom_
 
-PYTHON := python3
+PYTHON := uv run
 
 # Types
 ROM_TYPE := gb

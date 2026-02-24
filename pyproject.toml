@@ -1,0 +1,7 @@
+[project]
+name = "medarot1-pc"
+version = "0.1.0"
+description = "Medarot Parts Collection GB disassembly/translation"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
