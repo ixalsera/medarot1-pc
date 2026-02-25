@@ -1,3 +1,4 @@
+import warnings
 from collections import OrderedDict
 from functools import reduce
 from struct import *
@@ -37,7 +38,7 @@ with open(input_file, 'r', encoding='utf-8') as fp:
     pointer_length_map = {}
     for line in reader:
         txt = line[idx_text]
-    
+
         if len(txt) > 0 and txt[0] == '#': # Comment
             continue
 
@@ -108,7 +109,9 @@ with open(input_file, 'r', encoding='utf-8') as fp:
                         elif special_type == '$': # Raw byte
                             bintext.append(int(''.join(special_data), 16))
                         elif special_type == '4': # The remaining types are just single byte control codes (i.e. 4C for new text box)
-                            bintext.append(int( special_type + ''.join(special_data), 16))                       
+                            bintext.append(int( special_type + ''.join(special_data), 16))
+                        elif special_type in ['@', 'f', '`']:
+                            warnings.warn(f"WARNING: Control code '{special_type}' not yet implemented!")
                         else:
                             raise Exception(f"Unknown special_type {special_type} in {txt}")
                 finally:

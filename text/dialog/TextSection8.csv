@@ -1,18 +1,18 @@
 Pointer[#version],Original,Translated
-0x74000,ヘんどうの こうかが はっせいした!<S3c><4A><S2>こうどうせいこうリつが さがった!<S3c><*4>,Inflicted Flux status!<S3c><4C><S02>Success rate down!<S3c><*4>
-0x74002,ていしの こうかが はっせいした!<S3c><4A><S2>しばらくのあいだ うごけない!<S3c><*4>,Inflicted Stop status!<S3c><4C><S02>Unable to move!<S3c><*4>
-0x74004,そくばくの こうかが はっせいした!<S3c><4A><S2>スピードが おそくなった!<S3c><*4>,Inflicted Bind status!<S3c><4C><S02>Speed decreased!<S3c><*4>
-0x74006,けいぞくの こうかが はっせいした!<S3c><4A><S2>いどうちゅうも ダメージを うける!<S3c><*4>,Inflicted Burn status!<S3c><4C><S02>Continuous damage!<S3c><*4>
-0x74008,<&BUF01> は<4E>ヘんどう から かいじょされた!<S3c><*1>,<&BUF01>'s Flux wore off!<S3c><*1>
-0x7400a,<&BUF01> は<4E>ていし から かいじょされた!<S3c><*1>,<&BUF01> recovered from Stop!<S3c><*1>
-0x7400c,<&BUF01> は<4E>そくばく から かいじょされた!<S3c><*1>,<&BUF01>'s Bind wore off!<S3c><*1>
-0x7400e,<&BUF01> は<4E>けいぞく から かいじょされた!<S3c><*1>,<&BUF01>'s Burn wore off!<S3c><*1>
+0x74000,ヘんどうの こうかが はっせいした!<S3c><4A><S2>こうどうせいこうリつが さがった!<S3c><*4>,Inflicted <f02>Flux <f00>status!<S3c><4C><S02>Success rate down!<S3c><*4>
+0x74002,ていしの こうかが はっせいした!<S3c><4A><S2>しばらくのあいだ うごけない!<S3c><*4>,Inflicted <f02>Stop <f00>status!<S3c><4C><S02>Unable to move!<S3c><*4>
+0x74004,そくばくの こうかが はっせいした!<S3c><4A><S2>スピードが おそくなった!<S3c><*4>,Inflicted <f02>Bind <f00>status!<S3c><4C><S02>Speed decreased!<S3c><*4>
+0x74006,けいぞくの こうかが はっせいした!<S3c><4A><S2>いどうちゅうも ダメージを うける!<S3c><*4>,Inflicted <f02>Burn <f00>status!<S3c><4C><S02>Continuous damage!<S3c><*4>
+0x74008,<&BUF01> は<4E>ヘんどう から かいじょされた!<S3c><*1>,<&BUF01>'s <f02>Flux <f00>wore off!<S3c><*1>
+0x7400a,<&BUF01> は<4E>ていし から かいじょされた!<S3c><*1>,<&BUF01> recovered from <f02>Stop<f00>!<S3c><*1>
+0x7400c,<&BUF01> は<4E>そくばく から かいじょされた!<S3c><*1>,<&BUF01>'s <f02>Bind<f00> wore off!<S3c><*1>
+0x7400e,<&BUF01> は<4E>けいぞく から かいじょされた!<S3c><*1>,<&BUF01>'s <f02>Burn <f00>wore off!<S3c><*1>
 0x74010,<&BUF01> は<4E>かいじょするものが なかった!<S3c><*4>,There are no status effects to clear!<S3c><*4>
 0x74012,<&BUF01> は<4E>かいじょに しっぱいした!<S3c><*4>,<&BUF01>'s status clear failed!<S3c><*4>
-0x74014,<&BUF01> は<4E>ヘんどうの こうかを かいじょした!<S3c><*4>,<&BUF01> cleared all Flux status!<S3c><*4>
-0x74016,<&BUF01> は<4E>ていしの こうかを かいじょした!<S3c><*4>,<&BUF01> cleared all Stop status!<S3c><*4>
-0x74018,<&BUF01> は<4E>そくばくの こうかを かいじょした!<S3c><*4>,<&BUF01> cleared all Bind status!<S3c><*4>
-0x7401a,<&BUF01> は<4E>けいぞくの こうかを かいじょした!<S3c><*4>,<&BUF01> healed all Burn status!<S3c><*4>
+0x74014,<&BUF01> は<4E>ヘんどうの こうかを かいじょした!<S3c><*4>,<&BUF01> cleared all <f02>Flux <f00>status!<S3c><*4>
+0x74016,<&BUF01> は<4E>ていしの こうかを かいじょした!<S3c><*4>,<&BUF01> cleared all <f02>Stop <f00>status!<S3c><*4>
+0x74018,<&BUF01> は<4E>そくばくの こうかを かいじょした!<S3c><*4>,<&BUF01> cleared all <f02>Bind <f00>status!<S3c><*4>
+0x7401a,<&BUF01> は<4E>けいぞくの こうかを かいじょした!<S3c><*4>,<&BUF01> healed all <f02>Burn <f00>status!<S3c><*4>
 0x7401c,しかし ばくふうで ダメージをうけた<S3c><*4>,...But it took damage from the blast!<S3c><*4>
 0x7401e,てんたいかんそくじょ,
 0x74022,ほんたいかいかいじょう,
@@ -50,7 +50,7 @@ Pointer[#version],Original,Translated
 0x74062,パーツの じどうはんばいきだ!<4E>だけど ぜんぶ うリきれだ!,
 0x74064,メダロットが でます<4E>エサを あたえないでください,
 0x74066,きけん!!<4E>うちゅうじんが でます,
-0x74068,メダル 「<&BUF01>」 は<4E>レベルアップした!<4C><*4>,<&BUF01> Medal leveled up!<4C><*4>
+0x74068,メダル 「<&BUF01>」 は<4E>レベルアップした!<4C><*4>,<f02><&BUF01><f00> Medal leveled up!<4C><*4>
 0x740a2,なぐるが <&BUF01> あがった!<4C><*4>,Strike skill increased by <&BUF01>!<4C><*4>
 0x740a4,がむしゃらが <&BUF01> あがった!<4C><*4>,Berserk skill increased by <&BUF01>!<4C><*4>
 0x740a6,うつが <&BUF01> あがった!<4C><*4>,Shoot skill increased by <&BUF01>!<4C><*4>
@@ -59,7 +59,7 @@ Pointer[#version],Original,Translated
 0x740ac,まもるが <&BUF01> あがった!<4C><*4>,Protect skill increased by <&BUF01>!<4C><*4>
 0x740ae,なおすが <&BUF01> あがった!<4C><*4>,Heal skill increased by <&BUF01>!<4C><*4>
 0x740b0,そのほかが <&BUF01> あがった!<4C><*4>,Other skill increased by <&BUF01>!<4C><*4>
-0x740b2,メダル 「<&BUF01>」 は<4E>ランクアップした!<4C><*4>,<&BUF01> Medal's rank increased!<4C><*4>
+0x740b2,メダル 「<&BUF01>」 は<4E>ランクアップした!<4C><*4>,<f02><&BUF01><f00> Medal's rank increased!<4C><*4>
 0x740b4,さあ せんとうかいし!<*3>,Let the battle begin!<*3>
 0x740f2,つうしんロボトルを はじめます!!<S3c><*4>,The link Robottle will now begin!<S3c><*4>
 0x740f4,つかえません!!,You can't use that!!
@@ -319,7 +319,7 @@ Pointer[#version],Original,Translated
 0x74392,ユウキちゃんっていう カッコイイ<4E>おとこのこを しリませんこと?,
 0x743a2,おてんきの よいひは<4E>ロボトルですのよ!,
 0x743a4,そんなことを いわれましても<4E>わたくし あさは にがてですの,
-0x743a6,そうよ あなたが わるいんですの,
+0x743a6,そうよ あなたが わるいんですの,"That's right, it's your fault."
 0x743a8,ころんでも<4E>ただでは おきません ことよ!,
 0x743aa,ユウキちゃんを かえさない<4E>わるいこには おしおきですわ!,
 0x743ac,デリカシーの ない かたですわね!,
@@ -328,15 +328,15 @@ Pointer[#version],Original,Translated
 0x743b2,そうですの わたくしは デザートは<4E>キウィと きめていますのよ,
 0x743b4,そうなんですの?<4E>よく がまん なさっているわね,
 0x743b6,いつも おなじことを<4E>いっていると つかれますわー,
-0x743b8,わたくし ユウキちゃんを<4E>さがして おリますのよ,
+0x743b8,わたくし ユウキちゃんを<4E>さがして おリますのよ,I'm looking for Prince Yuuki.
 0x743ba,なんだか さいきん<4E>つかれぎみですの,
 0x743bc,あしたは はれると いいですわね,
-0x743be,そうですわね<4E>あなたの いうとおリですわ!,
+0x743be,そうですわね<4E>あなたの いうとおリですわ!,"That's right, just as you said!"
 0x743c0,<S6>わたくし ひるまは いつも<4E>しょうがくせいを やっていますけど<S80><4A><S6>よるになって ベッドにはいって<4E>めを とじると<S80><4A><S6>「めだろっとおうこく」の<4E>おひめさまに なリますのよ<S60><*4>,"<S6>By day, I am just a simple elementary school student.<S80><4A><S6>By night, when I go to bed and close my eyes, I become...<S80><4A><S6>Princess of the Medarot Kingdom!<S60><*4>"
 0x743c2,<S6>おひめさまの わたくしは<4E>いつも きまって<S80><4A><S6>「てぃんぺっとおうこく」の<4E>おうじさまの ユウキちゃんと<S80><4A><S6>いっしょなのですわ<S80><*4>,"<S6>As princess, I am always with<S80><4A><S6>Prince Yuuki of the Tinpet Kingdom<S80><*4>"
 0x743c4,<S6>でも あるひ カッコイイ<4E>ユウキちゃんを みかけた<S80><4A><S6>ミルキーっていう<4E>こわぁーーい まじょが<S80><4A><S6>ユウキちゃんを<4E>そばに おきたくなったのですわ<S80><4A><S6>それで ユウキちゃんは<4E>まじょミルキーのすむ とうに<S80><4A><S6>つれさられて しまったのです<S80><*4>,"<S6>But one day, the cool Prince Yuuki was spotted!<S80><4A><S6>The scary witch Milky wanted to keep Yuuki for herself.<S80><4A><S6>And so, Prince Yuuki was carried away to the tower<S80><4A><S6>where the witch Milky lived.<S80><*4>"
 0x743c6,<S6>わたくしと ユウキちゃんの<4E>なかを ひきさこうったって<S80><4A><S6>かみさまが ゆるしても<4E>このわたくしが ゆるしませんことよ!<S80><4A><S6>わたくしは<4E>かわいいクマの ベティをつれて<S80><4A><S6>いとしい ユウキちゃんを<4E>たすけだしに いくのでした<S80><4A><S6>めざすは「まじょのとう」!!<S80><4A><S6>ユウキちゃんは わたしませんことよ!<S80><4A><S6>まってて! ユウキちゃんっ!<S80><4A><S6>・・・いくわよ ベティ!!<S80><*4>,"<S6>Though the gods may forgive someone who tries to<S80><4A><S6>come between my dear Yuuki and me,<S80><4A><S6>I will never forgive them!<S80><4A><S6>So, I took my adorable bear, Betty, and set off<S80><4A><S6>to rescue my precious Prince Yuuki.<S80><4A><S6>Our destination: the ""Witch's Tower""!!<S80><4A><S6>I will not let anyone touch my Yuuki!<S80><4A><S6>Wait for me, Yuuki dearest!<S80><4A><S6>...Here we go, Betty!!<S80><*4>"
-0x743c8,<IGNORED>,
+0x743c8,<IGNORED>,<IGNORED>
 0x74020,=0x7401e,=0x7401e
 0x7406a,=0x74068,=0x74068
 0x7406c,=0x74068,=0x74068
