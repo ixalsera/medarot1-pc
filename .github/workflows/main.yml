@@ -1,0 +1,30 @@
+name: Build/Test
+
+on:
+  push:
+    branches:
+      - master
+      - develop
+      - staging
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    container: scytheri0n/medarot1-pc:latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      - name: Install dependencies
+        run: uv sync --locked
+      - name: Checkout ROMs
+        uses: actions/checkout@v6
+        with:
+          repository: ixalsera/medarot-rom
+          token: ${{ secrets.ROM_PAT }}
+          path: rom
+          sparse-checkout: |
+            baserom_parts_collection.gb
+          sparse-checkout-cone-mode: false
+      - name: Move ROM to project root
+        run: mv rom/baserom_parts_collection.gb .
+      - name: Recompile ROM
+        run: make
