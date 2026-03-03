@@ -251,9 +251,9 @@ Pointer[#version],Original,Translated
 0x74300,<&NAME>は <&BUF02><4E>「<&BUF01>」を てにいれた<*2>,<&NAME> obtained <&BUF01>!<*2>
 0x74302,カン!カン!カン! ロボトルエンド!<4E>さあ これで じかんぎれです!<4C>はんていのけっかを みてみましょう!<S78><4C><S2>はんていのけっか!<4E><&BUF01>の しょうリです!,Ding ding ding! Time is up!<4C>Now to determine the winner!<S78><4C><S02>It looks like... <&BUF01>'s match!
 0x74304,<&NAME>は <&BUF02><4E>「<&BUF01>」を とられた<*2>,<&NAME> handed over <&BUF01>.<*2>
-0x74306,えーーーーーーーん!!<4E>まけちゃったよーーー!<4C>わたしがまけるなんて これはゆめ?!<4E>そうよ! ゆめにちがいないわ!<4C>もういちど ねーましょ!<4E>スー スー スー ・・・・・・・・・,
+0x74306,えーーーーーーーん!!<4E>まけちゃったよーーー!<4C>わたしがまけるなんて これはゆめ?!<4E>そうよ! ゆめにちがいないわ!<4C>もういちど ねーましょ!<4E>スー スー スー ・・・・・・・・・,Waaaaaaaaaaaaaaaaaaaah!!<4E>I lost~~~!<4C>Can it be!? Am I dreaming!?<4E>Yes! It has to be a dream!<4C>Let me just go back to sleep!<4E>ZzZ... ZzZ...
 0x74308,<&NAME> は<4E>「ロボロボメダル」を てにいれた!<*2>,<&NAME> got a RoboRobo Medal!<*2>
-0x7430a,えーーーーーーーん!!<4E>まけちゃったよーーー!<4C>ベティ! あなたのせいよ!<4E>しっかリ たたかわないからよ!<4C>このっ!・・バキ・・ボコ・・ベキッ!<4E>つぎからは がんばリなさいよ!<4C>ベティ!<4C>ベティ!?<4C>ベティ??<4C>・・・ベティがピクリとも うごかない<4C>ガーン! こわれちゃった!!,"Waaaaaaaaaaaaaaaaaaaah!!<4E>I lost!<4C>Betty! It's your fault!<4E>You didn't fight hard enough!<4C>Geez!<4E><S6>SMASH<4A><S6>THUD<4E>CRASH<4C>Next time, do your best!<4C>Betty!<4C>Betty!?<4C>Betty??<4C>Betty's not moving an inch...<4C>Gah! She's broken!!"
+0x7430a,えーーーーーーーん!!<4E>まけちゃったよーーー!<4C>ベティ! あなたのせいよ!<4E>しっかリ たたかわないからよ!<4C>このっ!・・バキ・・ボコ・・ベキッ!<4E>つぎからは がんばリなさいよ!<4C>ベティ!<4C>ベティ!?<4C>ベティ??<4C>・・・ベティがピクリとも うごかない<4C>ガーン! こわれちゃった!!,"Waaaaaaaaaaaaaaaaaaaah!!<4E>I lost~~~!<4C>Betty! It's your fault!<4E>You didn't fight hard enough!<4C>Geez!<4E><S6>SMASH<4A><S6>THUD<4E>CRASH<4C>Next time, do your best!<4C>Betty!<4C>Betty!?<4C>Betty??<4C>Betty's not moving an inch...<4C>Gah! She's broken!!"
 0x7430c,<&NAME> は<4E>ティンペットを てにいれた!!,<&NAME> obtained a Tinpet!
 0x7430e,あれっ!!<4E>ティンペットは そろっているよ!<4C><&NAME> は<4E>ティンペットを もてなかった!!,Huh? You already have too many!<4C><&NAME> did not take the Tinpet!
 0x74310,ここでは つうしんケーブルをつかって<4E>ともだちと あそぶことができます<4C>つうしん しますか?<*4>,You can play with your friends using a Game Link cable here.<4C>Do you want to connect?<*4>
