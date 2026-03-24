@@ -130,7 +130,7 @@ Pointer[#version],Original,Translated
 0x74178,<&BUF01> には きかなかった<S3c><*4>,It had no effect on <&BUF01>.<S3c><*4>
 0x7417a,セーブしますか?<*4>,Do you want to save?<*4>
 0x7417c,メダロットが<4E>1たいも くまれていません!<4C>メダロットを くんでください!,You have no battle-ready Medarots!<4C>Please assemble a Medarot!
-0x7417e,もー<*2>,
+0x7417e,もー<*2>,Moo!<*2>
 0x74182,てかげん しないじゃんじゃん<*2>,"I won't go easy on you, dude.<*2>"
 0x74184,ロボトルするって カンジーッ<*2>,"Like, let's Robottle, y'know?<*2>"
 0x74186,きみの せんリゃくは みきった!<*2>,I've seen through your strategy!<*2>
@@ -189,7 +189,7 @@ Pointer[#version],Original,Translated
 0x741f0,わしと ボロトルせんか?<*2>,Will you Borottle with me?<*2>
 0x741f2,ウッ ウァオーン<4E>メダルが つきにみえるぜ<*2>,A-AwooOOooo! Medals... look like... the moon!<*2>
 0x741f4,さあ! しょうぶだ!!<S78><*4>,Now! Let's battle!!<S78><*4>
-0x741f6,モー<*2>,
+0x741f6,モー<*2>,...moo.<*2>
 0x74202,これくらいで かんべんして<4E>やるじゃんじゃん<*2>,"I'll let you off easy this time, dude!<*2>"
 0x74204,なんか ゆるせないって カンジーッ<*2>,"I, like, won't forgive you for this!<*2>"
 0x74206,みきっても かてないことも ある!<*2>,Sometimes knowing the strategy isn't enough!<*2>
@@ -324,7 +324,7 @@ Pointer[#version],Original,Translated
 0x743aa,ユウキちゃんを かえさない<4E>わるいこには おしおきですわ!,
 0x743ac,デリカシーの ない かたですわね!,
 0x743ae,ベティ<4E>あんたは ほんとに ダメなこね,
-0x743b0,あなたも そうやって わたくしを<4E>いじめるんですのねー,
+0x743b0,あなたも そうやって わたくしを<4E>いじめるんですのねー,"So you're going to bully me too, huh?"
 0x743b2,そうですの わたくしは デザートは<4E>キウィと きめていますのよ,
 0x743b4,そうなんですの?<4E>よく がまん なさっているわね,
 0x743b6,いつも おなじことを<4E>いっていると つかれますわー,
