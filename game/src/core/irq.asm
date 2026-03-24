@@ -84,17 +84,17 @@ LCDC_Status_IRQ: ; 4D3 (0:4D3)
   ld a, [$c5aa] ; if c5aa is set, use that instead as the original point
   or a
   jr nz, .use_c5aa
-  ld a, [hRegLYC] ; If c5aa isn't set, take the value of ff45
+  ldh a, [hRegLYC] ; If c5aa isn't set, take the value of ff45
 .use_c5aa
   ld [HackHBlankOriginal], a
 .draw_scroll_section_not_original
   ; Starting at c6b0, there are sets of 3 bytes indicating which line to apply the scroll until, SCX, SCY
   ld a, [hli] ; [0] = Line to stop at
-  ld [hRegLYC], a
+  ldh [hRegLYC], a
   ld a, [hli]
-  ld [hRegSCX], a ; [1] = SCX
+  ldh [hRegSCX], a ; [1] = SCX
   ld a, [hli]
-  ld [hRegSCY], a ; [2] = SCY
+  ldh [hRegSCY], a ; [2] = SCY
   ld a, l
   ld [HackHBlankOffset], a
   jr .draw_scroll_return
@@ -180,3 +180,7 @@ LoadSpritesForDMAHack::
   inc a
   ld [OAMDMAReady], a
   ret
+.marker
+  REPT $20B8 - .marker
+    nop
+  ENDR

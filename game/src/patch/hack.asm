@@ -78,10 +78,10 @@ ZeroTextOffset:
   ld [FlagNewLine], a
   ret
 
-hLineMax           EQU $11 ;Max offset from start of line
-hLineOffset        EQU $20 ;Bytes between line tiles
-hLineCount         EQU $04 ;Total number of lines
-hLineVRAMStart     EQU $9C00 ;Initial Tile VRAM location
+DEF    hLineMax           EQU $11 ;Max offset from start of line
+DEF    hLineOffset        EQU $20 ;Bytes between line tiles
+DEF    hLineCount         EQU $04 ;Total number of lines
+DEF    hLineVRAMStart     EQU $9C00 ;Initial Tile VRAM location
 
 SetNextChar: ; Override next character based on flags
   ld a, [FlagDo4C]

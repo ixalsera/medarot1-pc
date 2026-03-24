@@ -1,6 +1,5 @@
 # How this gets processed will be completely different between tr_EN and master, so it should not be expected that this will be reused
 # tr_EN relies on 3-byte pointers [Bank][Offset] instead of just the offset like in master
-from functools import reduce
 import os
 import sys
 from struct import *
@@ -45,7 +44,7 @@ current_fp = None
 with open(output_file, 'w') as output:
     try:
         current_fp = open(current_file, 'wb')
-        output.write(f'cText{current_index}        EQUS "\\"{current_file}\\""\n')
+        output.write(f'DEF    cText{current_index}        EQUS "\\"{current_file}\\""\n')
         for input_file in input_files:
             base_name = os.path.basename(input_file)
             output_path = os.path.join(output_bin_dir, base_name)
