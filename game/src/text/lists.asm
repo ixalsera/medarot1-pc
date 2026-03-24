@@ -36,22 +36,19 @@ LoadItemList::
 
 SECTION "Load from Medal List", ROM0[$307d]
 LoadMedalList::
+  ld b, $0
+  ld c, a
   push af
+  ld l, $4 ; Shift 4 times, list element size is 16
+  ld a, $a ; LeftShiftBC
+  rst $8
   ld a, BANK(MedalList)
   rst $10
   pop af
   ld hl, MedalList
-  ld b, $0
-  ld c, a
-  sla c
-  rl b
-  sla c
-  rl b
-  sla c
-  rl b
   add hl, bc
   ld de, cBUF01
-  ld b, $7
+  ld b, $10
 .asm_32d8
   ld a, [hli]
   ld [de], a
@@ -59,6 +56,13 @@ LoadMedalList::
   dec b
   jr nz, .asm_32d8 ; 0x32dc $fa
   ret
+  nop
+  nop
+  nop
+  nop
+  nop
+  nop
+  nop
   nop
   nop
 ; 0x32df
