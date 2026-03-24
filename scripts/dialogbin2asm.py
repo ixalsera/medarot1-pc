@@ -58,7 +58,7 @@ with open(output_file, 'w') as output:
                 # At this point, we're at the actual text in the file
                 for ptrs in offsets:
                     length = ptrs[1] # We only care about the length, the offset is calculated
-                    
+
                     if length + current_offset > BANK_MAX:
                         current_fp.close()
                         current_index += 1
@@ -67,19 +67,19 @@ with open(output_file, 'w') as output:
                         current_file = os.path.join(output_bin_dir, f"Text{current_index}.bin")
                         current_fp = open(current_file, 'wb')
                         assert length + current_offset < BANK_MAX, "Text is too long"
-                        output.write(f'cText{current_index}        EQUS "\\"{current_file}\\""\n')
+                        output.write(f'DEF    cText{current_index}        EQUS "\\"{current_file}\\""\n')
 
                     out_f.write(pack("<BH", current_bank, current_offset))
                     current_fp.write(in_f.read(length))
                     current_offset += length
-            
-            output.write(f'c{key}        EQUS "\\"{output_path}\\""\n')
+
+            output.write(f'DEF    c{key}        EQUS "\\"{output_path}\\""\n')
     finally:
         if current_fp:
             current_fp.close()
-    
+
     current_index += 1
     while f"Text{current_index}" in sections:
         current_file = os.path.join(output_bin_dir, f"Text{current_index}.bin")
-        output.write(f'cText{current_index}        EQUS "\\"{current_file}\\""\n')
+        output.write(f'DEF    cText{current_index}        EQUS "\\"{current_file}\\""\n')
         current_index += 1

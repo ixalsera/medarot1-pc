@@ -1,0 +1,40 @@
+name: Build/Test
+
+on:
+  push:
+    branches:
+      - master
+      - develop
+      - staging
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    container: scytheri0n/medarot1-pc:latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      - name: "Set up Python"
+        uses: actions/setup-python@v6
+        with:
+          python-version-file: "pyproject.toml"
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+      - name: Install dependencies
+        run: uv sync --locked --all-extras --dev
+      - name: Checkout ROMs
+        uses: actions/checkout@v6
+        with:
+          repository: ixalsera/medarot-rom
+          token: ${{ secrets.ROM_PAT }}
+          path: rom
+          sparse-checkout: |
+            baserom_parts_collection.gb
+          sparse-checkout-cone-mode: false
+      - name: Move ROM to project root
+        run: mv rom/baserom_parts_collection.gb .
+      - name: Recompile ROM
+        run: make
+      - name: Minimize uv cache
+        run: uv cache prune --ci
