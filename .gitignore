@@ -1,18 +1,12 @@
-*.gb
-*.sav
-*.ss*
-*.sgm
+# Build artifacts
 build/
 build.log
-*.sn*
-*.sna
 *.o
-.vscode/
-scripts/common/__pycache__/
-*.ips
-*.pyc
 *.map
 *.sym
+*.sn*
+*.sna
+*.ips
 .env
 
 # OSX
@@ -20,3 +14,15 @@ scripts/common/__pycache__/
 
 # Python
 .venv
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+
+# ROMs and Saves
+*.gb
+*.sav
+*.ss*
+*.sgm
