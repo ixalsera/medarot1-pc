@@ -293,7 +293,7 @@ Pointer[#version],Original,Translated
 0x74356,なぐる・がむしゃらにこうかをはっき!<S3c><*4>,Physical attack detected!<S3c><*4>
 0x74358,うつ・ねらいうちにこうかをはっき!<S3c><*4>,Ranged attack detected!<S3c><*4>
 0x7435a,トラップかいじょを おこなった!<S3c><*4>,Attempted to clear traps!<S3c><*4>
-0x7435c,<&BUF01> は<4E>ダメージかいふくを おこなった!<S3c><*4>,<&BUF01> cleared its damage!<S3c><*4>
+0x7435c,<&BUF01> は<4E>ダメージかいふくを おこなった!<S3c><*4>,<&BUF01> attempted repairs!<S3c><*4>
 0x74366,<&BUF01> は<4E>きのうかいふくを おこなった!<S3c><*4>,<&BUF01> tried to restore function!<S3c><*4>
 0x74368,ねらったパーツは<4E>ダメージを うけていません!<S3c><*4>,The targeted part is not damaged!<S3c><*4>
 0x7436a,ねらったパーツは<4E>きのうていし していません!<S3c><*4>,The targeted part is not destroyed!<S3c><*4>
@@ -317,7 +317,7 @@ Pointer[#version],Original,Translated
 0x7438e,ここでは つうしんケーブルをつかって<4E>ともだちと あそぶことができます<4C>まず はじめてこられた あなたヘ<4E>つうしんロボトルを せつめいします<4C>ーーあそびでロボトルーー<4E>ともだちのメダロットと<4C>きがるに たいせんできるモードです<4C>ーーしんけんロボトルーー<4E>ともだちのメダロットと<4C>メダルおよびパーツをかけた<4E>しんけんしょうぶができるモードです<4C><*4>,"Hello! This is where you can play together with your friends using a Game Link cable.<49>Since this is your first time coming here, I'll explain link Robottles for you:<4C>--- Practice Robottle ---<49>In this mode, you can battle against your friends without worrying about winning or losing parts.<4C>--- Official Robottle ---<49>In this mode, you can battle your friends while putting your parts and Medals on the line!<*4>"
 0x74390,まけたほうは メダルおよびパーツを<4E>とられてしまいます<4C>メダロットのすくない はじめのうちは<4E>やらないほうが いいとおもいます<4C>ーーパーツをトレードするーー<4E>ともだちのもっているパーツと<4C>あなたのもっているパーツを<4E>こうかんできるモードです<4C>いじょう!!<4E>3つのモードが たのしめます!<4C>それと もうひとつ!<4E>じゅうようなことが あリます<4C>このバージョンでは あいてから<4E>おくられてきた パーツ・メダルは<4C>ヘんか しません!<4C>ちょっと! ちゅういして<4E>つうしんしてね!,"The loser of the battle will have one of their parts or Medals taken by the winner.<49>For experienced players only!<4C>--- Trading Parts ---<49>In this mode, you can trade spare parts with your friends.<4C>That ends the explanation!<49>Have fun!"
 0x74392,ユウキちゃんっていう カッコイイ<4E>おとこのこを しリませんこと?,
-0x743a2,おてんきの よいひは<4E>ロボトルですのよ!,
+0x743a2,おてんきの よいひは<4E>ロボトルですのよ!,"On sunny days, we Robottle!"
 0x743a4,そんなことを いわれましても<4E>わたくし あさは にがてですの,
 0x743a6,そうよ あなたが わるいんですの,"That's right, it's your fault."
 0x743a8,ころんでも<4E>ただでは おきません ことよ!,
@@ -331,7 +331,7 @@ Pointer[#version],Original,Translated
 0x743b8,わたくし ユウキちゃんを<4E>さがして おリますのよ,I'm looking for Prince Yuuki.
 0x743ba,なんだか さいきん<4E>つかれぎみですの,
 0x743bc,あしたは はれると いいですわね,
-0x743be,そうですわね<4E>あなたの いうとおリですわ!,"That's right, just as you said!"
+0x743be,そうですわね<4E>あなたの いうとおリですわ!,"That's right, you're correct!"
 0x743c0,<S6>わたくし ひるまは いつも<4E>しょうがくせいを やっていますけど<S80><4A><S6>よるになって ベッドにはいって<4E>めを とじると<S80><4A><S6>「めだろっとおうこく」の<4E>おひめさまに なリますのよ<S60><*4>,"<S6>By day, I am just a simple elementary school student.<S80><4A><S6>By night, when I go to bed and close my eyes, I become...<S80><4A><S6>Princess of the Medarot Kingdom!<S60><*4>"
 0x743c2,<S6>おひめさまの わたくしは<4E>いつも きまって<S80><4A><S6>「てぃんぺっとおうこく」の<4E>おうじさまの ユウキちゃんと<S80><4A><S6>いっしょなのですわ<S80><*4>,"<S6>As princess, I am always with<S80><4A><S6>Prince Yuuki of the Tinpet Kingdom<S80><*4>"
 0x743c4,<S6>でも あるひ カッコイイ<4E>ユウキちゃんを みかけた<S80><4A><S6>ミルキーっていう<4E>こわぁーーい まじょが<S80><4A><S6>ユウキちゃんを<4E>そばに おきたくなったのですわ<S80><4A><S6>それで ユウキちゃんは<4E>まじょミルキーのすむ とうに<S80><4A><S6>つれさられて しまったのです<S80><*4>,"<S6>But one day, the cool Prince Yuuki was spotted!<S80><4A><S6>The scary witch Milky wanted to keep Yuuki for herself.<S80><4A><S6>And so, Prince Yuuki was carried away to the tower<S80><4A><S6>where the witch Milky lived.<S80><*4>"
